@@ -2,3 +2,12 @@ CSS links:
 
 https://css-tricks.com/how-to-use-css-grid-for-sticky-headers-and-footers/
 
+CSS background:
+
+https://www.w3schools.com/cssref/pr_background-position.asp
+
+SVG links:
+
+https://css-tricks.com/using-svg/#:~:text=We%20can%20use%20SVG%20in,it%20will%20be%20added%20automagically.
+https://www.w3schools.com/graphics/svg_rect.asp
+
