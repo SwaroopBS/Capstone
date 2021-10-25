@@ -6,6 +6,12 @@ CSS background:
 
 https://www.w3schools.com/cssref/pr_background-position.asp
 
+CSS Grid:
+
+https://ishadeed.com/article/grid-layout-flexbox-components
+https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/
+https://stackoverflow.com/questions/45536537/centering-in-css-grid    //To locate the items in the grid
+
 SVG links:
 
 https://css-tricks.com/using-svg/#:~:text=We%20can%20use%20SVG%20in,it%20will%20be%20added%20automagically.
