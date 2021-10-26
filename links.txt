@@ -10,7 +10,8 @@ CSS Grid:
 
 https://ishadeed.com/article/grid-layout-flexbox-components
 https://getflywheel.com/layout/combine-flexbox-and-css-grids-for-layouts-how-to/
-https://stackoverflow.com/questions/45536537/centering-in-css-grid    //To locate the items in the grid
+https://stackoverflow.com/questions/45536537/centering-in-css-grid    //to locate the items in the grid
+https://coryrylan.com/blog/how-to-center-in-css-with-css-grid#:~:text=To%20align%20the%20item%20horizontally,%2C%20end%20%2C%20stretch%20or%20center%20.  //positioning
 
 SVG links:
 
