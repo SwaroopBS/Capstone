@@ -1,0 +1,238 @@
+.background {
+    z-index: -1;
+    background-image: url(./background_image.svg);
+}
+
+.container {    /* grid container for the body */
+    display: grid;
+    height: 100%;
+    /* grid-template-columns: 200px 5rem 20% auto; */
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 83% 7%;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+    /* grid-column-gap: 20px;
+    grid-row-gap: 10px; */
+
+    grid-template-areas: "header1 header2" 
+                         "main1 main2"
+                         "footer1 footer1";
+}
+
+.nav_container {        /* grid container for the header/nav bar */
+    display: grid;
+    height: 100%;
+    /* grid-template-columns: 200px 5rem 20% auto; */
+    grid-template-columns: 40% 15% 15% 20% 10%;
+    /* grid-column-gap: 20px;*/
+    grid-column-gap: 10px; 
+
+    font-size: 12px;
+
+    grid-area: header2;
+    grid-template-areas: "nav_e1 nav_e2 nav_e3 nav_e4 blank";
+}
+
+.footer1 {
+    background: black;
+    grid-area: footer1;
+    font-size: 10px;
+    position: relative;
+}
+
+.footer1 p{
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    color: rgb(102, 102, 102);
+}
+
+
+
+.nav_a1{        /* header element 1 */
+    grid-area: nav_e2;
+    position: relative;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    
+}
+
+.nav_a2{        /* header element 2 */
+    grid-area: nav_e3;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.nav_a2:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+.nav_a1 p{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+.nav_a2 p{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.nav_a3 p{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    cursor: stroke;
+}
+
+.nav_a3{        /* header element 3 */
+    grid-area: nav_e4;
+    position: relative;
+}
+
+.nav_a3:hover{
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+
+a p{
+    list-style: none;
+    color: rgb(255, 29, 99);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+
+
+
+.main1 {          /* main1 */
+    background-image: url(./main1.svg);
+    background-repeat: no-repeat;
+    height: 80%;
+    width: 80%;
+    background-position: left;
+    margin-top: 10%;
+    /* grid-column-start: 1;
+    grid-column-end: -1; */
+    /* grid-column: 1 / -1; */
+    /* grid-row-start: row-2-start;
+    grid-row-end: span 1; */
+    /* grid-row: row-2-start / span 1; */
+    z-index: 10;
+    grid-area: main1;
+}
+
+.header1 {          /* header1 */
+    /* grid-column-start: 2;
+    grid-column-end: span 3; 
+    grid-row-start: row-1-start;
+    grid-row-end: row-2-end; */
+    grid-area: header1;
+    position: relative;
+}
+
+.logo_icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 20%;    
+}
+
+
+
+
+
+.main2_container {
+    grid-area: main2;
+    display: grid;
+    height: 100%;
+    /* grid-template-columns: 200px 5rem 20% auto; */
+    grid-template-rows: 60% 40%;
+    /* grid-column-gap: 20px;*/
+
+    font-size: 20px;
+
+    grid-template-areas: "main2_part1"
+                        "main2_part2";
+
+    position: relative;
+}
+
+.main2_part1_item {
+    grid-area: main2_part1;
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.3;
+    left: 25%;
+    top: 20%;
+    z-index: 50;
+}
+
+.main2_part2_item {
+    z-index: 51;
+    grid-area: main2_part2;
+    position: absolute;
+    background-color: rgb(255, 29, 99);
+    font-size: 15px;
+    font-family: inherit;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    top: 65%;
+    left: 28%;
+    padding: 2px;
+    align-items: center;
+}
+
+.main2_part2_item:hover {
+
+    background-color: rgb(170, 5, 65);
+
+}
+
+.main2_container a {        /*to position the button*/
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    align-items: center;
+}
+
+.main2_part2_item p {       /*styling the Register text*/
+    position: absolute;
+    font-size: 15px;
+    font-family: inherit;
+    color: #fff;
+    top: 10%;
+    left: 30%;
+    align-items: center;
+}
+
+
+
+
+
